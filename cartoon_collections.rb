@@ -16,5 +16,5 @@ def find_the_cheese(array)
   if (array & cheese_types).length == 0
     return nil 
   else
-    return (array & cheese_types)[0]
+    return (array & cheese_types).first
 end
